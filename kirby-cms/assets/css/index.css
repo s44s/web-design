@@ -220,32 +220,12 @@ nav li a:hover {
 	flex-basis: 33%;
 }
 
-.projects .showcase li:nth-of-type(1) {
-	flex-basis: 25%;
-}
-
-.projects .showcase li:nth-of-type(2) {
-	flex-basis: 45%;
-}
-
-.projects .showcase li:nth-of-type(3) {
-	flex-basis: 25%;
-}
-
-.projects .showcase li:nth-of-type(4) {
-	flex-basis: 25%;
-}
-
-.projects .showcase li:nth-of-type(5) {
-	flex-basis: 45%;
-}
-
-.projects .showcase li:nth-of-type(6) {
-	flex-basis: 25%;
-}
-
 .projects .showcase h3 {
 	display: none;
+}
+
+.projects .showcase {
+	margin-top: 10%;
 }
 
 /* css blend mode */
@@ -363,4 +343,83 @@ article footer a:focus {
 		height: auto;
 		margin: 0;
 	}
+}
+
+/* pagination */
+.pagination {
+  margin-bottom: 1.5rem;
+}
+
+.pagination-item {
+  position: relative;
+  width: 1.75rem;
+  height: 1.75rem;
+  border-radius: 50%;
+  background: #efeeed;
+  color: #261e66;
+  border-bottom: 0;
+}
+
+.pagination-item:hover, .pagination-item:focus {
+  background: #261e66;
+  color: #71efac;
+}
+
+.pagination-item:active {
+  background: #4509be;
+}
+
+.pagination-item.left {
+  float: left;
+}
+
+.pagination-item.right {
+  float: right;
+}
+
+.pagination-item svg {
+  position: relative;
+  top: 50%;
+  display: block;
+  margin: -6px auto 0;
+  width: 24px;
+  height: 12px;
+}
+
+.pagination-item path {
+  fill: currentColor;
+}
+
+.pagination-item.is-inactive {
+  color: #e4e3e6;
+  border: 2px solid currentColor;
+  background: transparent;
+}
+
+@media all and (min-width: 75em) {
+  .pagination-item {
+    position: fixed;
+    top: 50%;
+    margin-top: -.875rem;
+  }
+  .pagination-item.left {
+    float: none;
+    left: 2.25rem;
+  }
+  .pagination-item.right {
+    float: none;
+    right: 2.25rem;
+  }
+}
+
+@media all and (pointer: coarse) {
+  .pagination-item {
+    /* On touch-devices we increase prev/next buttons */
+    width: 2.25rem;
+    height: 2.25rem;
+  }
+}
+
+.project main {
+	margin-top: 5%;
 }

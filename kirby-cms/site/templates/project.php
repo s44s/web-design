@@ -11,7 +11,7 @@
   <?= css('assets/css/index.css') ?>
 
 </head>
-<body>
+<body class="project">
 
   <main class="main" role="main">
 
@@ -42,5 +42,5 @@
     <?php snippet('prevnext') ?>
 
   </main>
-
-<?php snippet('footer') ?>
+</body>
+</html>

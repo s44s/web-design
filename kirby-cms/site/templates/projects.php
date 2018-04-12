@@ -9,10 +9,10 @@
   <?= css('assets/css/index.css') ?>
 </head>
 <body class="projects">
+  <header>
+    <?php snippet('menu') ?>
+  </header>
   <main class="main" role="main">
-		<header>
-			<?php snippet('menu') ?>
-		</header>
 
     <div class="wrap wide">
       <?php snippet('showcase') ?>
