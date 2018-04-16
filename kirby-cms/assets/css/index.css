@@ -210,6 +210,9 @@ nav li a:hover {
 }
 
 /* projects */
+.projects {
+	margin-bottom: 5%;
+}
 .projects .showcase {
 	display: flex;
 	flex-direction: row;
