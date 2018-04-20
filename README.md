@@ -30,6 +30,8 @@ At the homepage you have four different option to explore my site. I'm explainin
 
 ![alt text](./screenshots/sitemap.png "Logo Title Text 1")
 
+![alt text](./screenshots/IMG_8090.JPG "Logo Title Text 1")
+
 ## Feedback
 - [x] Done
 - [ ] To do
