@@ -1,0 +1,19 @@
+Title: AMC
+
+----
+
+Year: 2017
+
+----
+
+Category: conceptueel
+
+----
+
+Text: 
+
+Voor een project voor de HvA CMD hebben wij in samenwerking met het AMC-psychiatrie een terugvalpreventie applicatie ontworpen. De applicatie is speciaal gemaakt voor mensen met de angststoornis body-dysmorphic disorder en die hun therapie al hebben afgerond. Wat een terugkomend aspect is aan deze stoornis, is dat patiënten vaak snel terugvallen in hun oude patroon. 
+
+Wij kregen de opdracht om voor patiënten met een angststoornis een applicatie te ontwikkelen die zij nog konden gebruiken na hun behandeling om terugval te voorkomen. Een week lang heb ik mijzelf opgesloten om tot de kern van het probleem te komen. Interviews terug geluisterd, onderzoek gedaan naar de angststoornis, met doktoren gesprekken gevoerd en uiteindelijk kijken naar een geschikte oplossing voor een terugvalpreventie applicatie. De resultaten van de applicatie zijn te zien in de volgende slides. 
+
+Op 25 januari 2017 heb ik samen met mijn teamgenoot Amber op de (link: https://www.nfu-ehealth.nl/nieuws/het-nfu-e-health-programma-zichtbaar-in-het-amc-en-umcg-tijdens-nationale-e/ text: eHealthweek) gestaan in het AMC om ons concept te pitchen.

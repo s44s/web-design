@@ -9,10 +9,15 @@ fields:
   title:
     label: Title
     type:  text
-    width: 3/4
+    width: 2/4
 
   year:
     label: Year
+    type:  text
+    width: 1/4
+
+  category:
+    label: Category
     type:  text
     width: 1/4
 

@@ -1,9 +1,0 @@
-Title: Project F
-
-----
-
-Year: 2018
-
-----
-
-Text: Test project

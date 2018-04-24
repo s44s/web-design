@@ -1,0 +1,25 @@
+Title: Curling quiz
+
+----
+
+Year: 2018
+
+----
+
+Category: onderzoeken
+
+----
+
+Text: 
+
+Sinds 14 januari is wekelijks het nieuwe programma ‘Curling Quiz’ op NPO1 te zien. Gedurende mijn stage is Univate een samenwerking aangegaan met Faber AV, een toonaangevende speler in de wereld van LED-schermen en audiovisuele totaalproducties. Door deze samenwerking komen er veel nieuwe klussen binnen, ook Curling Quiz is vanuit deze samenwerking ontstaan.
+
+Wij zijn gevraagd om voor Curling Quiz een systeem te programmeren waarmee er achter de schermen een punten systeem bijgehouden kan worden. Ik ben als producer ingezet voor dit project. PosVideo was het productiebedrijf voor dit televisieprogramma en ik heb dan ook voornamelijk met hen samengewerkt. 
+
+Ik ben langs PosVideo gegaan om een briefing op te stellen. Ik heb helder proberen te krijgen wat zij precies van ons verwachten en aan welke eisen het systeen moet voldoen. Aan Enrico heb ik dit door gebriefd en hij is dit vervolgens gaan programmeren. Aan de hand van de briefing heb ik ook hier een interface ontwerp gemaakt, waarvan uit Enrico verder kon programmeren. 
+
+Een spannend moment in dit project was wanneer de regisseuse bij ons op bezoek kwam om het systeem te testen. Tot die tijd heb ik alleen met de productiemedewerkers gesproken over de eisen van het product. De Regisseuse had nog een aantal kleine opmerkingen die wij moesten aanpassen. 
+
+De dag voor de opnames zijn wij langs geweest om op te bouwen. Wij hebben ons systeem daar geïnstalleerd en de handleiding overhandigend aan de desbetreffende persoon die het systeem ging besturen. 
+
+Tijdens dit project heb ik veel geleerd over het managen. Ik had de voorledige verantwoordelijkheid en dit was dan soms ook best spannend. Hoe goed ik alles ook vaak had voorbereid, er gingen altijd nog een aantal onverwachte dingen fout. Gelukkig heb ik dit allemaal op kunnen lossen en is de tv serie nu op televisie te zien. Hoe gaaf is dat?

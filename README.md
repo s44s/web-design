@@ -32,6 +32,8 @@ At the homepage you have four different option to explore my site. I'm explainin
 
 ![alt text](./screenshots/IMG_8090.JPG "Logo Title Text 1")
 
+## Features
+* Page transitions (http://git.blivesta.com/animsition/)
 ## Feedback
 - [x] Done
 - [ ] To do
