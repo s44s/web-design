@@ -23,7 +23,7 @@ if($page->hasNextVisible() || $page->hasPrevVisible()): ?>
     <?php if($page->hasPrevVisible()): ?>
 			<a class="pagination-item <?= $directionPrev ?>" href="<?= $page->prevVisible()->url() ?>" rel="prev" title="">
 				<div>
-					<img src="../../assets/images/prev.png"/>
+					<img src="../assets/images/prev.png"/>
 					<p><?= $page->prevVisible()->title()->html() ?></p>
 				</div>
 			</a>

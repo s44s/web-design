@@ -35,12 +35,12 @@
 							<form>
 								<label for="song">Email</label>
 								<div class="mail">
-									<span class="input-icon"><img src="/assets/images/main.png"/></span>
+									<span class="input-icon"><img src="assets/images/main.png"/></span>
 									<input id="song" type="text" name="song" placeholder="email"/>
 								</div>
 								<label for="song">Search for track</label>
 								<div class="search">
-									<span class="input-icon"><img src="/assets/images/search.png"/></span>
+									<span class="input-icon"><img src="assets/images/search.png"/></span>
 									<input id="song" type="text" name="song" placeholder="search for a song"/>
 								</div>
 								<button type="submit">Send!</button>
