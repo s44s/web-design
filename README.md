@@ -23,7 +23,7 @@ The 18th of April I'm going to meet Marijn for the first time. I have came up wi
 - If you look around to portfolio websites, which are in your opinion 'good' and why?
 
 ## User scenario's
-Marijn is looking for a new employee for his tech company. He received 43 portfolio websites and he only have one day to chose the right person. So he is looking straight for his goal.
+Marijn is looking for a new employee for his tech company. He received 4 portfolio websites and he only have one day to chose the right person. So he is looking straight for his goal.
 * He wants to be impressed when he is visiting the site for the first time. When he will not be impressed he is not looking further.
 * After that he wants to find out more about the code qualities of that person.
 * If he finds it good enough, he wants to get in touch with that person.
@@ -40,7 +40,6 @@ At the homepage you have four different option to explore my site. I'm explainin
 #### #04 Keep users in control
 > Humans are most comfortable when they feel in control of themselves and their environment. Thoughtless software takes away that comfort by forcing people into unplanned interactions, confusing pathways, and surprising outcomes. Keep users in control by regularly surfacing system status, by describing causation (if you do this that will happen) and by giving insight into what to expect at every turn. Don't worry about stating the obvious…the obvious almost never is.
 
-
 ![alt text](./screenshots/4.png "Logo Title Text 1")
 *Keep the user in control by telling them what they could do. Is it to obvious? The obvious almost never is.*
 
@@ -49,6 +48,9 @@ At the homepage you have four different option to explore my site. I'm explainin
 
 #### #08 Provide a natural next step
 > Very few interactions are meant to be the last, so thoughtfully design a next step for each interaction a person has with your interface. Anticipate what the next interaction should be and design to support it. Just as we like in human conversation, provide an opening for further interaction. Don't leave a person hanging because they've done what you want them to do…give them a natural next step that helps them further achieve their goals.
+
+![alt text](./screenshots/8.png "Logo Title Text 1")
+*When you are in a project page, you can go to the prev or next page.*
 
 #### #14 Progressive Disclosure
 > Show only what is necessary on each screen. If people are making a choice, show enough information to allow them the choice, then dive into details on a subsequent screen. Avoid the tendency to over-explain or show everything all at once. When possible, defer decisions to subsequent screens by progressively disclosing information as necessary. This will keep your interactions more clear.
