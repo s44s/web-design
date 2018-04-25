@@ -55,12 +55,16 @@ p {
 }
 
 /* menu contact */
-nav img {
-	width: 2em;
+nav a {
 	position: absolute;
 	top: 5vh;
 	right: 5vw;
 	z-index: 3;
+	outline: 0;
+}
+
+nav img {
+	width: 2em;
 }
 
 nav a:focus img, nav a:hover img {
@@ -74,102 +78,107 @@ nav a:hover img, nav a:focus img {
 	width: 50px;
 }
 
-/* body border */
-body:before, body:after {
-    content: "";
-    position: fixed;
-    background: var(--main-black);
-    left: 0;
-    right: 0;
-    height: 10px;
-		z-index: 100;
+/* BORDER AROUND SECTION */
+section {
+	height: 100%;
+	z-index: 100;
+	border-left: 10px solid var(--main-black);
+	border-right: 10px solid var(--main-black);
 }
 
-body:before {
-    top: 0;
+section::before, section::after {
+  content: "";
+  position: fixed;
+  background: var(--main-black);
+  left: 0;
+  right: 0;
+  height: 10px;
+	z-index: 100;
 }
 
-body:after {
-    bottom: 0;
+section::before {
+  top: 0;
 }
 
-body {
-		height: 100%;
-		z-index: 100;
-    border-left: 10px solid var(--main-black);
-    border-right: 10px solid var(--main-black);
+section::after {
+  bottom: 0;
 }
 
 /* different states */
-body.stateA {
+body.stateA section {
 	border-left: 10px solid var(--accentcolor-green1);
 	border-right: 10px solid var(--accentcolor-green1);
 }
 
-body.stateA:before, body.stateA:after {
+body.stateA section::before, body.stateA section::after {
 	background-color: var(--accentcolor-green1);
 }
 
-body.stateB {
+body.stateB section {
 	border-left: 10px solid var(--accentcolor-green2);
 	border-right: 10px solid var(--accentcolor-green2);
 }
 
-body.stateB:before, body.stateB:after {
+body.stateB section::before, body.stateB section::after {
   background: var(--accentcolor-green2);
 }
 
-body.stateC {
+body.stateC section {
 	border-left: 10px solid var(--accentcolor-green3);
 	border-right: 10px solid var(--accentcolor-green3);
 }
 
-body.stateC:before, body.stateC:after {
+body.stateC section::before, body.stateC section::after {
   background: var(--accentcolor-green3);
 }
 
-body.stateAB {
+body.stateAB section {
 	border-left: 10px solid var(--accentcolor-green1);
 	border-right: 10px solid var(--accentcolor-green1);
 }
 
-body.stateAB:before, body.stateAB:after {
+body.stateAB section::before, body.stateAB section::after {
   background: var(--accentcolor-green1);
 }
 
-body.stateAC {
+body.stateAC section{
 	border-left: 10px solid var(--accentcolor-green1);
 	border-right: 10px solid var(--accentcolor-green1);
 }
 
-body.stateAC:before, body.stateAC:after {
+body.stateAC section::before, body.stateAC section::after {
   background: var(--accentcolor-green1);
 }
 
-body.stateBC {
+body.stateBC section {
 	border-left: 10px solid var(--accentcolor-green2);
 	border-right: 10px solid var(--accentcolor-green2);
 }
 
-body.stateBC:before, body.stateBC:after {
+body.stateBC section::before, body.stateBC section::after {
   background: var(--accentcolor-green2);
 }
 
-body.stateABC {
+body.stateABC section {
 	border-left: 10px solid var(--accentcolor-green1);
 	border-right: 10px solid var(--accentcolor-green1);
 }
 
-body.stateABC:before, body.stateABC:after {
+body.stateABC section::before, body.stateABC section::after {
   background: var(--accentcolor-green1);
 }
 
 /* HOMEPAGE */
+#home section {
+	height: 100vh;
+}
+
 .homepage {
 	display: grid;
 	grid-template-columns: 1fr;
 	grid-template-rows: auto;
 	width: 90vw;
+	height: 100vh;
 	margin-left: 5vw;
 	margin-right: 5vw;
 }
@@ -288,23 +297,12 @@ article strong {
 .next {
 	position: absolute;
 	bottom:20px;
-	left: calc(50vw - 10px);
-}
-
-svg {
-	display: none;
-	width: 40px;
-	fill: var(--main-black);
-}
-
-.next {
-	position: absolute;
-	bottom: 20px;
 	left: calc(50vw - 20px);
 }
 
 svg {
 	display: none;
+	width: 40px;
 	fill: var(--main-black);
 }
 
@@ -325,7 +323,7 @@ svg {
 	bottom: 3vh;
 }
 
-.noscrol:hover::after, .noscrol:focus::after {
+.homepage .noscrol:hover::after, .homepage .noscrol:focus::after {
 	content: 'select something';
 }
 
@@ -360,8 +358,7 @@ svg.stateABC {
 
 /* SECTIONS */
 section {
-	width: 100%;
-	height: 100vh;
+	width: 100vw;
 }
 
 section .content {
@@ -396,7 +393,6 @@ section ul li h3 {
 }
 
 section ul li a:hover, section ul li a:focus {
-	opacity: 0.9;
 	outline: 0;
 }
 
@@ -410,12 +406,13 @@ section ul li a:hover h3, section ul li a:focus h3 {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	position: relative;
+	z-index: 10000;
+	position: absolute;
 	background-color: white;
-	bottom: 22.5vw;
-	left: 2.5vw;
+	bottom: 2.5vw;
 	width: 20vw;
 	height: 20vw;
+	margin-left: 2.5vw;
 	text-align: center;
 }
 
@@ -425,33 +422,10 @@ section ul li img {
 }
 
 /* states */
-section.stateA {
+section#onderzoeken, section#conceptueel, section#tech {
 	opacity: 1;
 }
 
-section.stateB {
-	opacity: 1;
-}
-
-section.stateC {
-	opacity: 1;
-}
-
-section.stateAB {
-	opacity: 1;
-}
-
-section.stateAC {
-	opacity: 1;
-}
-
-section.stateBC {
-	opacity: 1;
-}
-
-section.stateABC {
-	opacity: 1;
-}
 
 /* ONDERZOEKEN */
 #onderzoeken {
@@ -476,39 +450,40 @@ body {
 	opacity: 1 !important;
 }
 
-body.onderzoeken {
+#project section {
+	height: 100%;
+}
+
+body.onderzoeken section {
 	border-left: 10px solid var(--accentcolor-green1);
 	border-right: 10px solid var(--accentcolor-green1);
 }
 
-body.onderzoeken:before, body.onderzoeken:after {
+body.onderzoeken section::before, body.onderzoeken section::after {
 	background-color: var(--accentcolor-green1);
 }
 
-body.conceptueel {
-	border-left: 10px solid var(--accentcolor-green1);
-	border-right: 10px solid var(--accentcolor-green1);
+body.conceptueel section {
+	border-left: 10px solid var(--accentcolor-green2);
+	border-right: 10px solid var(--accentcolor-green2);
 }
 
-body.conceptueel:before, body.conceptueel:after {
-	background-color: var(--accentcolor-green1);
+body.conceptueel section::before, body.conceptueel section::after {
+	background-color: var(--accentcolor-green2);
 }
 
-body.tech {
-	border-left: 10px solid var(--accentcolor-green1);
-	border-right: 10px solid var(--accentcolor-green1);
+body.tech section {
+	border-left: 10px solid var(--accentcolor-green3);
+	border-right: 10px solid var(--accentcolor-green3);
 }
 
-body.tech:before, body.tech:after {
-	background-color: var(--accentcolor-green1);
+body.tech section::before, body.tech section::after {
+	background-color: var(--accentcolor-green3);
 }
 
-.onderzoeken section, .conceptueel section, .tech section {
+.onderzoeken section > div:first-of-type, .conceptueel section > div:first-of-type, .tech section > div:first-of-type {
 	width: 90vw;
 	margin-left: 5vw;
-}
-
-#project {
 	padding-top: 5vh;
 }
 
@@ -526,6 +501,7 @@ body.tech:before, body.tech:after {
 #project section .images img {
 	width: 100%;
 	float: left;
+	margin-bottom: 5%;
 }
 
 #project section .text {
@@ -533,6 +509,183 @@ body.tech:before, body.tech:after {
 	width: 45%;
 	text-align: left;
 	margin-bottom: 5%;
+}
+
+/* pagination */
+.pagination {
+}
+
+.left {
+	outline: 0;
+	display: block;
+	width: auto;
+	margin-top: 5%;
+}
+
+.left div {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+
+.onderzoeken .left {
+	background-color: var(--accentcolor-green1);
+}
+
+.conceptueel .left {
+	background-color: var(--accentcolor-green2);
+}
+
+.tech .left {
+	background-color: var(--accentcolor-green3);
+}
+
+.left:hover div, .left:focus div {
+	-webkit-animation-name: toRight;
+	animation-name: toRight;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+}
+
+.left p {
+	padding: 2%;
+}
+
+.left img {
+	width: 15px;
+	height: 15px;
+	align-self: center;
+	margin-right: 2%;
+}
+
+.right {
+	margin: 0;
+	clear: both;
+	float: none;
+	display: block;
+	width: 100%;
+	height: 200px;
+}
+
+.right p {
+	width: 40%;
+	text-transform: uppercase;
+	padding-top: 50px;
+	text-align: right;
+	margin-left: 20px
+}
+
+.right h1 {
+	width: 40%;
+	text-align: right;
+	margin-left: 20px
+}
+
+.onderzoeken .right {
+	background-color: var(--accentcolor-green1);
+}
+
+.conceptueel .right {
+	background-color: var(--accentcolor-green2);
+}
+
+.tech .right {
+	background-color: var(--accentcolor-green3)
+}
+
+.right:hover, .right:focus  {
+	color: white;
+	background-color: var(--main-black);
+	box-sizing: content-box;
+	margin-left: -10px;
+	padding-right: 20px;
+	outline: 0;
+}
+
+.pagination .no-next:hover, .pagination .no-next:focus {
+	background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+	background-size: 1800% 1800%;
+  animation: rainbow 18s ease infinite;
+}
+
+.right:hover::after, .right:focus::after {
+  content: "";
+  position: fixed;
+	z-index: 10000;
+  background: var(--main-black);
+  left: 0;
+  right: 0;
+  height: 20px;
+}
+
+.right:hover::after, .right:focus::after {
+  bottom: 0;
+}
+
+.right:hover p, .right:focus p {
+	margin-left: 30px;
+}
+
+.right:hover h1, .right:focus h1 {
+	margin-left: 30px;
+}
+
+/* CONTACT */
+#contact section div{
+	width: 90vw;
+	margin-left: 5vw;
+	padding-top: 5vh;
+}
+
+#contact nav a {
+	top: 2vh;
+	right: 3vw;
+	z-index: 3;
+	outline: 0;
+}
+
+#contact nav a:focus .video-menu, #contact nav a:hover .video-menu {
+	width: 80px;
+}
+
+#contact .video-menu {
+	width: 60px;
+}
+
+
+#contact section h1 {
+	margin-bottom: 2%;
+}
+
+#contact section .form p {
+	margin-bottom: 5%;
+}
+
+#contact section .form form {
+
+}
+
+.search {
+  border: 1px solid #ddd;
+  display: flex;
+  flex-direction: row;
+}
+
+.input-icon {
+  background: #ddd;
+}
+
+.input-icon img {
+	width: 25px;
+}
+
+#song {
+  border: none;
+  flex: 1;
+}
+
+.input-icon, #song {
+  padding: 5px;
 }
 
 /* animations */
@@ -578,6 +731,12 @@ body.tech:before, body.tech:after {
   }
 }
 
+@keyframes toRight {
+	0%   {position: relative;right: 0px; top: 0px;}
+	50%  {right: 10%; top: 0px;}
+	100%  {right: 20%; top: 0px;}
+}
+
 @keyframes bounceInDown {
   from,
   60%,
@@ -613,4 +772,10 @@ body.tech:before, body.tech:after {
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
   }
+}
+
+@keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
 }

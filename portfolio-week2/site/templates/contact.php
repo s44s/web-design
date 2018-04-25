@@ -12,42 +12,38 @@
 	<meta name="description" content="<?= $site->description()->html() ?>">
   <?= css('assets/css/index.css') ?>
 </head>
-<body class="<?= $page->category() ?>" id="project">
+<body class="<?= $page->category() ?>" id="contact">
   <header>
 		<nav>
-			<a href="http://webdesign.test/contact">
-				<img src="../assets/images/contact.png" alt="Contact"/>
+			<a href="http://webdesign.test/">
+				<video class="video-menu" loop muted autoplay>
+					<source src="../../assets/images/header-blue.ogv" type="video/ogg">
+				</video>
 			</a>
 		</nav>
   </header>
 
 	<section>
-		<div>
+		<div class="content">
 	    <header>
 	      <h1><?= $page->title()->html() ?></h1>
-	      <p class="intro year"><?= $page->year() ?></p>
-				<p class="intro category"><?= $page->category() ?></p>
-				<?php snippet('prev') ?>
 	    </header>
 
-			<div class="images">
-				<?php
-				// Images for the "project" template are sortable. You
-				// can change the display by clicking the 'edit' button
-				// above the files list in the sidebar.
-				foreach($page->images()->sortBy('sort', 'asc') as $image): ?>
-					<figure>
-						<img src="<?= $image->url() ?>" alt="<?= $page->title()->html() ?>" />
-					</figure>
-				<?php endforeach ?>
-			</div>
-
-	    <div class="text">
+	    <div class="form">
 	      <?= $page->text()->kirbytext() ?>
+				<form action="/" method="post" enctype="application/json">
+					<label for="song">Email</label>
+					<input id="song" type="text" placeholder="email"/>
+
+					<label for="song">Search for track</label>
+					<div class="search">
+						<span class="input-icon"><img src="../../assets/images/search.png"/></span>
+						<input id="song" type="text" name="song" placeholder="search for a song"/>
+					</div>
+					<button type="submit">Send!</button>
+				</form>
 	    </div>
 		</div>
-		<?php snippet('next') ?>
-
   </section>
 
 	<?= js(array(

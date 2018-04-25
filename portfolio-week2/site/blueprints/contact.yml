@@ -1,0 +1,26 @@
+title: Contact
+
+files:
+  sortable: true
+
+pages: false
+
+fields:
+  title:
+    label: Title
+    type:  text
+    width: 2/4
+
+  year:
+    label: Year
+    type:  text
+    width: 1/4
+
+  type:
+    label: Type
+    type:  text
+    width: 1/4
+
+  text:
+    label: Text
+    type:  textarea

@@ -1,7 +1,6 @@
 var checkboxes = document.querySelectorAll('input[type="checkbox"]');
 var next = document.querySelector('.next svg');
 
-
 for (var i = 0; i < checkboxes.length; i++) {
 	checkboxes[i].addEventListener("change", function(){
 
