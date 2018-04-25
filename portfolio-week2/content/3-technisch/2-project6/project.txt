@@ -1,8 +1,8 @@
-Title: Project8
+Title: NodeJS
 
 ----
 
-Year: 
+Year: 2018
 
 ----
 
@@ -11,3 +11,7 @@ Category: tech
 ----
 
 Text: 
+
+This project is a minimized server-side version of the OBA project. As a minimum viable product (MVP), its main task is to show a list of posters and tweets relate to a district in Amsterdam. You can compare the views of the population in time.
+
+Website live on: https://performacematters.suustenvoorde.me/

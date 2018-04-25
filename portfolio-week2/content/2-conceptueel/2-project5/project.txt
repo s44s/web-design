@@ -10,4 +10,14 @@ Category: conceptueel
 
 ----
 
-Text: Hier komt nog tekst
+Text: 
+
+Zhik is een Australisch kleding merk voor de watersporten. Zij hebben een stand op de Volvo Ocean Race en willen een interactieve installatie daar plaatsen. Deze stand is niet op één plek te vinden, maar op twaalf verschillende steden verspreid over de hele wereld. Van Melbourne tot Alicante en van Hong Kong tot ons eigen Den Haag. De deadline is behoorlijk snel, over een maand begint deze race al in Alicante. Wel met aantekening dat het mooi meegenomen zou zijn dat de installatie bij alle twaalf de stops aanwezig zal zijn, maar dat dit geen must is. Ik heb de opdracht gekregen om mee te denken naar een concept en mij in te lezen in de klant. 
+
+Ik ben begonnen met onderzoek te gaan doen waar dit merk precies voor staat en wat de Volvo Ocean Race is. In een documentje heb ik dit samengevat om iedereen hiervan op de hoogte te brengen die bij dit project betrokken is. 
+
+Wat de installatie precies moet gaan worden was in het begin nog erg vrij. Om hier wat opheldering over te krijgen, hebben we contact gezocht met Zhik. Het hoofdkantoor zat gevestigd in Sydney, dus er was aardig wat tijdsverschil wat het communiceren wel lastig maakte. Via de mail hebben we begrepen dat de installatie die ze zouden willen hebben betrekening moest hebben op hun nieuwe zeiljas die zij hadden ontworpen voor de een aantal zeilers die mee deden met de race. Dit was dus niet zomaar een jas, maar een behoorlijk dure en gespecialiseerde zeilers jas. 
+
+Jurriën en ik zijn vanaf dit punt gaan brainstormen. We hebben inspiratie op gedaan aan de hand van pinterest en met de bijgeleverde content van Zhik. Waar ik voornamelijk benieuwd naar was tijdens mijn stage was het concept ontwikkeling. Bij dit project zat ik dus goed op mijn plek. Hoewel ik had verwacht dat er meer structuur zou zijn bij zn proces, bleek dit hier toch heel anders te gaan. Jur had namelijk een beginnend idee bedacht (in zijn vrije tijd) en heeft dit aan mij doorgebriefd. Vanuit dat idee ben ik verder gaan kijken en zijn we op het volgende concept uitgekomen. 
+
+Het concept is heel eenvoudig. Er komen drie verticale schermen op een wand waar de gebruiker voor kan gaan staan. Door middel van een sensor is er bekend voor welk scherm de gebruiker staat. Daar waar de gebruiker staat of beweegt komt er een watersplash te zien. De gebruiker is als het ware de woeste zee die de golven bestuurt.

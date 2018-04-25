@@ -12,7 +12,7 @@
 <body id="projects">
   <header>
 		<nav>
-			<a href=""><img src="../assets/images/contact.png" alt="Contact"/></a>
+			<a href=""><img src="/assets/images/contact.png" alt="Contact"/></a>
 		</nav>
   </header>
   <main>

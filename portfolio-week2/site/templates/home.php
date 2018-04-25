@@ -16,7 +16,7 @@
   <header>
 		<nav>
 			<a href="http://webdesign.test/contact">
-				<img src="../assets/images/contact.png" alt="Contact"/>
+				<img src="assets/images/contact.png" alt="Contact"/>
 			</a>
 		</nav>
   </header>
@@ -25,7 +25,7 @@
 		<div class="homepage">
 				<figure>
 					<video loop muted autoplay>
-						<source src="../../assets/images/header-blue.ogv" type="video/ogg">
+						<source src="assets/images/header-blue.ogv" type="video/ogg">
 					</video>
 				</figure>
 

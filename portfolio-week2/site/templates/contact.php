@@ -17,7 +17,7 @@
 		<nav>
 			<a href="http://webdesign.test/">
 				<video class="video-menu" loop muted autoplay>
-					<source src="../../assets/images/header-blue.ogv" type="video/ogg">
+					<source src="assets/images/header-blue.ogv" type="video/ogg">
 				</video>
 			</a>
 		</nav>
@@ -25,25 +25,32 @@
 
 	<section>
 		<div class="content">
-	    <header>
-	      <h1><?= $page->title()->html() ?></h1>
-	    </header>
+			<div class="contact-text">
+			    <header>
+			      <h1><?= $page->title()->html() ?></h1>
+			    </header>
 
-	    <div class="form">
-	      <?= $page->text()->kirbytext() ?>
-				<form action="/" method="post" enctype="application/json">
-					<label for="song">Email</label>
-					<input id="song" type="text" placeholder="email"/>
-
-					<label for="song">Search for track</label>
-					<div class="search">
-						<span class="input-icon"><img src="../../assets/images/search.png"/></span>
-						<input id="song" type="text" name="song" placeholder="search for a song"/>
+		    	<div class="form">
+			      <?= $page->text()->kirbytext() ?>
+							<form>
+								<label for="song">Email</label>
+								<div class="mail">
+									<span class="input-icon"><img src="/assets/images/main.png"/></span>
+									<input id="song" type="text" name="song" placeholder="email"/>
+								</div>
+								<label for="song">Search for track</label>
+								<div class="search">
+									<span class="input-icon"><img src="/assets/images/search.png"/></span>
+									<input id="song" type="text" name="song" placeholder="search for a song"/>
+								</div>
+								<button type="submit">Send!</button>
+							</form>
 					</div>
-					<button type="submit">Send!</button>
-				</form>
+				</div>
+				<div class="spotify">
+					<img src="assets/images/spotify.png"/>
+				</div>
 	    </div>
-		</div>
   </section>
 
 	<?= js(array(
