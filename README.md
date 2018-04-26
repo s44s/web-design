@@ -67,11 +67,10 @@ At the homepage you have four different option to explore my site. I'm explainin
 
 Marijn used his own laptop (macbook pro). In the accessibility settings he enabled the 'sticky keys' option. Before this test we didn't even meet Marijn before. So his friend Vasilis told us that Marijn used the tab key most of the times. In fact, the opposite is true. Martijn uses most of the time his trackpad and the space bar. He uses the spacebar to scroll and to click on items.
 
-### Feedback
-- [x] Done
-- [ ] To do
+### To Do
 - [ ] Contact page (working backend)
 - [ ] Responsive on all devices
 - [ ] Feature detection
+- [ ] Performance check
 - [ ] Dot navigation
 - [ ] Back button
