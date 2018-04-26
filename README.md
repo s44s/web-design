@@ -55,19 +55,23 @@ At the homepage you have four different option to explore my site. I'm explainin
 #### #14 Progressive Disclosure
 > Show only what is necessary on each screen. If people are making a choice, show enough information to allow them the choice, then dive into details on a subsequent screen. Avoid the tendency to over-explain or show everything all at once. When possible, defer decisions to subsequent screens by progressively disclosing information as necessary. This will keep your interactions more clear.
 
+* Homepage: navigation
+* Project pages: chose a project
+* Project detail page: information and chose next
+* Contact page: send me a song!
+
 ## Test
 * Date: *25 april 2018*
 * Where: *Hogschool van Amsterdam*
 * Who: *Marijn*
 
-Laat met video’s en fotos zien hoe de test is gegaan
+Marijn used his own laptop (macbook pro). In the accessibility settings he enabled the 'sticky keys' option. Before this test we didn't even meet Marijn before. So his friend Vasilis told us that Marijn used the tab key most of the times. In fact, the opposite is true. Martijn uses most of the time his trackpad and the space bar. He uses the spacebar to scroll and to click on items.
 
 ### Feedback
 - [x] Done
 - [ ] To do
-- [ ] Contact page (working)
+- [ ] Contact page (working backend)
 - [ ] Responsive on all devices
 - [ ] Feature detection
-
-## Conclusie
-- En reflecteer op je bevindingen
+- [ ] Dot navigation
+- [ ] Back button
