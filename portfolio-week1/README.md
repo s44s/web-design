@@ -17,7 +17,8 @@ By making the background color really extreme, the other elements on the side ar
 * #8: Provide a natural next step.
 When you are in a specific project, you are able to visit the next or previous project by the end of reading the article.
 
-![alt text](../screenshots/next step.png "Logo Title Text 1")
+![alt text](../screenshots/1.png "Logo Title Text 1")
+![alt text](../screenshots/nextstep.png "Logo Title Text 1")
 
 ## Testing
 Feedback from Cas:
